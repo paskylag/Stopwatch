@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Cinzel+Decorative&family=Jura:wght@700&family=Petemoss&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+body{display: flex; flex-direction: column; background-color: burlywood; justify-content: center; height: 20vh;}
+
+#container{font-family: jura; background-color: rgb(95, 91, 91); color: white; display: flex; flex-direction: column;  justify-content: center; height: 30vh; padding: 2%; align-items: center; margin-top: 30%; margin-left: 15%; margin-right: 15%; border-radius: 15px;}
+
+#startbtn , #stopbtn , #resetbtn {padding: 10px; font-weight: bold; margin: 5px; cursor:pointer;}
+
+#startbtn:hover, #stopbtn:hover, #resetbtn:hover{background: coral; padding: 5px}
+
+
+#startbtn:focus,#stopbtn:focus, #resetbtn{transform: scaleX(1.2);}
+
+#minute,#seconds{font-weight: bold;}
+
+#button{display: inline;}
+
